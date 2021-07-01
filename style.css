@@ -1,0 +1,68 @@
+:root {
+  --rojo: #c22d18;
+  --blanco: #f7f7f7;
+  --gris: #d9c9f1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #262626;
+}
+
+h1,
+.footer__h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+
+  padding: 70px 0;
+
+  background-color: var(--rojo);
+  color: var(--blanco);
+}
+
+h1 {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.footer__h3 {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='550' height='550' viewBox='0 0 145.521 145.521'%3E%3Cdefs/%3E%3Cg fill-rule='evenodd'%3E%3Cpath fill='%23262626' d='M0 0h145.52v145.521H0z' style='font-variation-settings:normal'/%3E%3Cg paint-order='stroke fill markers' transform='rotate(-45 -8.557 146.8)'%3E%3Cpath fill='gray' stroke='%23262626' stroke-linecap='round' stroke-linejoin='round' stroke-width='13.229' d='M35.152 151.946a66.146 66.146 0 0066.146 66.146 66.146 66.146 0 0066.145-66.146z' style='font-variation-settings:normal'/%3E%3Cpath fill='%23404040' stroke='%23262626' stroke-linecap='round' stroke-linejoin='round' stroke-width='13.229' d='M35.152 151.946h132.291a66.146 66.146 0 00-66.145-66.145 66.146 66.146 0 00-66.146 66.145z' style='font-variation-settings:normal'/%3E%3Ccircle cx='154.592' cy='-101.298' r='19.844' fill='gray' stroke='%23262626' stroke-linecap='round' stroke-linejoin='round' stroke-width='13.229' style='font-variation-settings:normal' transform='rotate(90)'/%3E%3Ccircle cx='154.592' cy='-101.298' r='9.922' fill='%23262626' style='font-variation-settings:normal' transform='rotate(90)'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: 100px;
+}
+
+.tarjeta__pokemon {
+  padding: 40px 20px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.pokemon__img {
+  background-color: #ffffff80;
+  border-radius: 50%;
+  padding: 25px;
+}
+
+.pokemon__img img {
+  height: 150px;
+}
+
+.info__pokemon {
+  margin-top: 20px;
+}
