@@ -1,9 +1,9 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">^Pokemón API</h1>
+<h1 align="center">Pokemón API</h1>
 
 <div align="center">
-  Practice of API followed by <a href="https://codepen.io/bohemiolobo/full/bGqqXBo" target="_blank">Florin Pop</a>
+  API Practice followed by <a href="https://www.youtube.com/watch?v=XL68br6JyYs" target="_blank">Florin Pop</a>
 </div>
 
 <h2 align="center">Link to <a href="https://codepen.io/bohemiolobo/full/ZEearNV" target="_blank">Demo</a></h2>
